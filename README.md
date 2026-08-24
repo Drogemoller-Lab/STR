@@ -78,11 +78,17 @@ Generates AlphaGenome predictions for selected STRs.
 ### 13b_prepare_alphagenome_files.R
 Processes AlphaGenome prediction results.
 
-### str_annotation.R
-Performs functional annotation using TR-xQTL resources.
+### 14_gencode.sh
+Prepares GENCODE annotations used to determine the genomic context of associated STRs.
 
-### gencode.sh
-Performs GENCODE-based genomic annotation.
+### 15_plot_strs.R
+Generates plots for the STR analyses.
 
 ### 16_cpg_annotation.R
 Performs CpG annotation of associated STR loci.
+
+### 17_str_annotation_tr_xqtls.R
+Performs functional annotation of associated STRs using TR-xQTL resources.
+
+### 18_count_str_per_chr.sh
+Counts STRs across chromosomes.
