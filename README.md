@@ -17,4 +17,4 @@ The workflow consists of the following steps:
 8. Fine-mapping
 9. Haplotype analysis
 10. STR burden analysis
-11. Functional prediction using AlphaGenome
+11. Functional prediction
