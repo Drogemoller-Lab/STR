@@ -10,7 +10,7 @@ PLINK="/opt/plink-1.09/plink"
 #       -O z $base_dir/chr*/input/filtered_imputed_STR_SNPs_chr*.vcf.gz 
 
 #for str files
-vcf_list="vcfs_to_concat.txt"
+vcf_list="$base_dir/heritability/vcfs_to_concat.txt"
 #> $vcf_list
 #for chr in {1..22}; do
 #  echo "$base_dir/chr${chr}/input/annotated_filtered_imputed_STR_SNPs_chr${chr}.vcf.gz" >> $vcf_list

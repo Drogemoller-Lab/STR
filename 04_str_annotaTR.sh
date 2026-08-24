@@ -6,7 +6,7 @@ base_dir="/home/projects/hearing_loss/clsaARHL_SA/str"
 #activate TRTools environment
 
 # Loop over chromosomes 1 to 22
-for chr in {4..9}; do
+for chr in {1..22}; do
 
    echo "Starting STR annotation for chr$chr..."
    annotaTR \
